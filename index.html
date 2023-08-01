@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+    <nav>
+        <a href="index.html" ><img src="eduford_img/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-window-close" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href=" ">Home</a></li>
+                <li><a href=" ">About</a></li>
+                <li><a href=" ">Search your Home Here</a></li>
+                <li><a href=" ">Blog</a></li>
+                <li><a href=" ">Contact</a></li>
+            </ul>
+            <!--have to keep all the attributes bundled together 
+            and make the impact-->
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+        <h1> HouseHunt.com</h1>
+        <p1> We know its the pain to find the home in an unknown town. But you have us. 
+            <br>For all the bachelors out there, dont worry. We together gonna make that easy.
+        </p1>
+        <br>
+        <br>
+        <a href="" class="hero-btn"> Contact us to know more</a>
+    </div>
+</section>
+<section class="properties">
+    <h1> Properties we offer</h1>
+    <p> Search for the categories and get the property of your choice</p>
+    <div class="row">
+        <div class="flats">
+            <h3> For Owners</h3>
+            <p> Owners can also register their properties with us</p>
+        </div>
+        <div class="flats">
+            <h3> For Tenants</h3>
+            <p> We can help tenants find their home</p>
+        </div>
+        <div class="flats">
+            <h3> For Bachelors</h3>
+            <p> Our website dedicatedly works for bachelors to help them find their dream home</p>
+        </div>
+
+
+    </div>
+</section>
+<section class="offering">
+    <h1>We offer 1bhk, 2bhk, 3bhk</h1>
+    <p>Fully furnished, semi furnished and unfurnished. All flat are available at the pocket friendly rent prices</p>
+    <div class="row">
+        <div class="flat-view">
+            <img src="eduford_img/washington.png">
+            <div class="layer">
+                <h3>
+                    Independent houses
+                </h3>
+            </div>
+        </div>
+        <div class="flat-view">
+            <img src="eduford_img/newyork.png">
+            <div class="layer">
+                <h3>
+                    Luxurious Amenities
+                </h3>
+            </div>
+        </div>
+        <div class="flat-view">
+            <img src="eduford_img\newyork.png">
+            <div class="layer">
+                <h3>
+                    Spacious apartments
+                    
+                </h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script>
+
+var navlinks=document.getElementById("navLinks");
+function showMenu()
+{
+    navlinks.style.right=0;
+
+}
+function hideMenu()
+ {
+    navlinks.style.right=-200;
+
+}
+    
+</script>
+
+<section class="areas">
+
+    <h1> Areas We Serve</h1>
+    <p>As we are early age startup. Now serving only Hinjewadi and Wakad areas only</p>
+    <div class="row">
+        <div class="locality">
+            <img src="eduford_img/library.png">
+            <h3> Explore Hinjewadi</h3>
+            <p> We serve in entire hinjewadi area including phase 1, phase 2, phase 3</p>
+        </div>
+        <div class="locality">
+            <img src="eduford_img/library.png">
+            <h3> Explore Wakad</h3>
+            <p> All spacious socities around main wakad, bhumkar and dange chowk area</p>
+        </div>
+        <div class="locality">
+            <img src="eduford_img/cafeteria.png">
+            <h3> Explore Akurdi</h3>
+            <p> We also now serving in Akurdi with major bandwidth across all areas</p>
+        </div>
+    </div>
+</section>
+
+
+<section class="packages">
+    <h3>What review does the bachelors have for us</h3>
+    <p> We have helped many bachelors from our initiatives that made their living better</p>
+
+    <div class="row">
+        <div class="testimonial"> 
+            <img src="eduford_img/user1.jpg">
+            <div>
+                <p> Yes , Paid plans are better and good as you will get dedicated services with a relationship manager assigned 
+                    for your property search. In my case, RM D L HrushikeshKarthikReddy was good and he was very supportive in 
+                    finding me a home according to my specifics. 
+                    overall I am satisfied with their paid services 
+                </p>
+                <h3> Nandini Andreza</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        <div class="testimonial"> 
+            <img src="eduford_img/user2.jpg">
+            <div>
+                <p> A special thanks to Prathima B from No broker. I do really recommend while searching the house take
+                     No broker relax plan(Specially in Bangalore & Mumbai kind of city) as instead of paying full 
+                     month rent to Brokers it is very small amount which helps them to run the business( brokers 
+                     certainly increase the house rent again what owner expects).
+                </p>
+                <h3> Parag Sharma</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+       
+       
+    </div>
+</section>
+<section class="cta">
+    <h1> Take the minimal price subscription.<br> Starting from just Rs : 99 only</h1> 
+    <a href="" class="hero-btn">CONTACT US</a>
+</section>
+<section class="footer">
+    <h4> About Us</h4>
+    <p>We are now aquriring all the areas and growing into all our fields. Keep in touch with us
+        on social media handles. You surely going to find your new home searcher.
+    </p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+
+    </div>
+
+
+</section>
+</body>
+</html>
